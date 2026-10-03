@@ -2,7 +2,7 @@
 
 | Archivo | Contenido |
 |---|---|
-| `ATI2.Seminario-Ordaya.pdf` | Artículo compilado (metodología de la RSL, formato Springer LNCS) |
+| `Avance3.Seminario-Ordaya.pdf` | Artículo compilado (metodología de la RSL, formato Springer LNCS) |
 | `Overleaf_ATI2.Seminario-Ordaya.zip` | Proyecto LaTeX listo para subir a Overleaf (New Project → Upload Project) |
 | `articulo/` | Fuentes LaTeX (`main.tex`, tabla y referencias de estudios incluidos) |
 | `Base_de_datos.Seminario-Ordaya.xlsx` | Ecuaciones, 942 registros con decisión PRISMA y motivo, incluidos y conteos |
