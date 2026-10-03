@@ -103,26 +103,34 @@ Los sinónimos de cada componente se agruparon con el operador \texttt{OR}, y lo
 ("social robot*" OR "social robotics" OR "socially assistive robot*" OR "companion robot*" OR "human-robot interaction") AND ("large language model*" OR "generative AI" OR "generative artificial intelligence" OR "vision-language model*" OR "foundation model*" OR GPT OR ChatGPT OR "multimodal LLM")
 \end{quote}
 
-La Tabla~\ref{tab:eq} presenta su sintaxis en cada base de datos. En Semantic Scholar, el operador \texttt{+} equivale a \texttt{AND} y \texttt{|} a \texttt{OR}; las formas plurales se escribieron explícitamente en lugar del truncamiento. En Crossref, cuya API no admite operadores booleanos, se ejecutaron las 30 combinaciones P$\times$I. Después se aplicó la misma ecuación booleana sobre el título y el resumen de cada registro, por lo que ambas búsquedas son lógicamente equivalentes. Las sintaxis para Scopus y Web of Science se incluyen para facilitar la replicación.
+Esta ecuación canónica se aplica sin cambios en todas las bases de datos; solo varía el campo de búsqueda y la forma de aplicar los filtros (Tabla~\ref{tab:eq}):
+
+\begin{itemize}
+\item \textbf{Scopus.} La ecuación se pega en la caja \textit{Search documents} con el campo \textit{Article title, Abstract, Keywords}. Se aplican los filtros \textit{Year range} 2020--2026, \textit{Document type} Article y Conference Paper, y \textit{Language} English y Spanish. Su forma en la búsqueda avanzada es:\\
+{\ttfamily\raggedright TITLE-ABS-KEY(<ecuación>) AND PUBYEAR > 2019 AND PUBYEAR < 2027 AND (LIMIT-TO(DOCTYPE,"ar") OR LIMIT-TO(DOCTYPE,"cp")) AND (LIMIT-TO(LANGUAGE,"English") OR LIMIT-TO(LANGUAGE,"Spanish"))\par}
+\item \textbf{Web of Science Core Collection.} En la \textit{Fielded Search} se elige el campo \textit{Topic} y se pega la ecuación tal cual, \emph{sin} el prefijo \texttt{TS=}, porque el campo ya lo aplica. Se fija \textit{Publication Date} del 2020-01-01 al 2026-12-31. Su equivalente en el \textit{Query Builder} es \texttt{TS=(<P>) AND TS=(<I>)}.
+\item \textbf{Semantic Scholar.} El operador \texttt{+} equivale a \texttt{AND} y \texttt{|} a \texttt{OR}. Las formas plurales se escriben explícitamente porque no admite truncamiento con \texttt{*}. La búsqueda se hace en título y resumen, con años 2020--2026.
+\item \textbf{Crossref.} Su API no admite operadores booleanos, por lo que se ejecutaron las 30 combinaciones P$\times$I. Después se aplicó la misma ecuación sobre el título y el resumen de cada registro, de modo que el resultado es lógicamente equivalente.
+\end{itemize}
 
 \begin{table}[htbp]
 \centering
-\caption{Ecuaciones de búsqueda equivalentes por base de datos (ejecución: 3 de octubre de 2026).}
+\caption{Aplicación de la ecuación canónica por base de datos.}
 \label{tab:eq}
 \scriptsize
-\begin{tabular}{L{1.9cm}L{7.4cm}L{1.8cm}}
+\begin{tabular}{L{1.9cm}L{2.6cm}L{4.6cm}L{1.9cm}}
 \toprule
-\textbf{Base} & \textbf{Ecuación / campos} & \textbf{Registros} \\
+\textbf{Base} & \textbf{Campo} & \textbf{Filtros} & \textbf{Registros} \\
 \midrule
-Semantic Scholar & \texttt{("social robot" | "social robots" | "social robotics" | "socially assistive robot" | "socially assistive robots" | "companion robot" | "human-robot interaction") + ("large language model" | "large language models" | "generative AI" | "generative artificial intelligence" | "vision-language model" | "foundation model" | "GPT" | "ChatGPT" | "multimodal LLM")}; título y resumen; años 2020--2026 & 873 \\
+Semantic Scholar & Título y resumen (API \textit{bulk search}) & 2020--2026; ejecución 3/10/2026 & 873 \\
 \addlinespace
-Crossref & Consultas \texttt{query.bibliographic} = P$_i$ + I$_j$ (5$\times$6), \texttt{from-pub-date:2020-01-01}, \texttt{until-pub-date:2026-12-31}; filtro posterior con la ecuación booleana en título y resumen & 69 \\
+Crossref & Título y resumen (API REST, filtro booleano local) & 2020--2026; ejecución 3/10/2026 & 69 \\
 \addlinespace
-Scopus & \texttt{TITLE-ABS-KEY(<P>) AND TITLE-ABS-KEY(<I>) AND PUBYEAR > 2019 AND PUBYEAR < 2027 AND LIMIT-TO(DOCTYPE,"ar" OR "cp") AND LIMIT-TO(LANGUAGE,"English" OR "Spanish")} & Replicación \\
+Scopus & Article title, Abstract, Keywords & 2020--2026; Article y Conference Paper; English y Spanish & Por ejecutar \\
 \addlinespace
-Web of Science & \texttt{TS=(<P>) AND TS=(<I>)}; PY=2020--2026; DT=Article o Proceedings Paper & Replicación \\
+WoS Core Collection & Topic (Fielded Search, sin \texttt{TS=}) & Publication Date 2020-01-01 a 2026-12-31 & Por ejecutar \\
 \midrule
-\multicolumn{2}{r}{\textbf{Total identificado}} & \textbf{942} \\
+\multicolumn{3}{r}{\textbf{Total identificado}} & \textbf{942} \\
 \bottomrule
 \end{tabular}
 \end{table}
