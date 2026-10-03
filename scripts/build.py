@@ -68,17 +68,14 @@ def header(ws, cols, widths):
 
 wb = Workbook()
 ws = wb.active; ws.title = 'Ecuaciones'
-header(ws, ['Base de datos', 'Campo de búsqueda', 'Ecuación aplicada', 'Filtros', 'Fecha de ejecución', 'Registros recuperados'], [18, 22, 110, 40, 14, 12])
-ws.append(['Semantic Scholar (Academic Graph API, /paper/search/bulk)', 'Título y resumen', s2q, 'Años 2020–2026', '2026-10-03', c['s2']])
-ws.append(['Crossref (REST API /works)', 'Título y resumen (equación aplicada sobre los metadatos)',
-           'Consultas P×I: {"social robot" | "social robotics" | "socially assistive robot" | "companion robot" | "human-robot interaction"} × {"large language model" | "generative AI" | "vision-language model" | "foundation model" | "GPT" | "ChatGPT"}; luego se conservaron solo los registros que cumplen la misma ecuación booleana en título+resumen',
-           'from-pub-date 2020-01-01, until-pub-date 2026-12-31', '2026-10-03', c['cr']])
-ws.append(['Scopus (equivalente, para replicación)', 'TITLE-ABS-KEY',
-           'TITLE-ABS-KEY ( "social robot*" OR "social robotics" OR "socially assistive robot*" OR "companion robot*" OR "human-robot interaction" ) AND TITLE-ABS-KEY ( "large language model*" OR "generative AI" OR "generative artificial intelligence" OR "vision-language model*" OR "foundation model*" OR gpt OR chatgpt OR "multimodal LLM" ) AND PUBYEAR > 2019 AND PUBYEAR < 2027 AND ( LIMIT-TO ( DOCTYPE , "ar" ) OR LIMIT-TO ( DOCTYPE , "cp" ) ) AND ( LIMIT-TO ( LANGUAGE , "English" ) OR LIMIT-TO ( LANGUAGE , "Spanish" ) )   [Caja Search documents, campo Article title, Abstract, Keywords]',
-           'Year range 2020-2026; Document type Article + Conference Paper; Language English + Spanish', 'Pendiente', ''])
-ws.append(['Web of Science Core Collection (equivalente, para replicación)', 'Topic (Fielded Search: pegar la ecuación SIN el prefijo TS=)',
-           'Fielded Search, campo Topic: ("social robot*" OR "social robotics" OR "socially assistive robot*" OR "companion robot*" OR "human-robot interaction") AND ("large language model*" OR "generative AI" OR "generative artificial intelligence" OR "vision-language model*" OR "foundation model*" OR GPT OR ChatGPT OR "multimodal LLM")   |   Equivalente Query Builder: TS=("social robot*" OR "social robotics" OR "socially assistive robot*" OR "companion robot*" OR "human-robot interaction") AND TS=("large language model*" OR "generative AI" OR "generative artificial intelligence" OR "vision-language model*" OR "foundation model*" OR GPT OR ChatGPT OR "multimodal LLM")',
-           'Publication Date 2020-01-01 a 2026-12-31', 'Pendiente', ''])
+EQ = '("social robot*" OR "social robotics" OR "socially assistive robot*" OR "companion robot*" OR "human-robot interaction") AND ("large language model*" OR "generative AI" OR "generative artificial intelligence" OR "vision-language model*" OR "foundation model*" OR GPT OR ChatGPT OR "multimodal LLM")'
+header(ws, ['Base de datos', 'Campo de búsqueda', 'Ecuación de búsqueda', 'Filtros', 'Fecha de búsqueda', 'Registros recuperados', 'Observación'], [18, 18, 90, 40, 14, 12, 50])
+ws.append(['Semantic Scholar', 'Título y resumen', EQ, 'Años 2020–2026', '03/10/2026', c['s2'],
+           'Las formas plurales se escribieron completas en lugar del truncamiento (*).'])
+ws.append(['Crossref', 'Título y resumen', EQ, 'Fecha de publicación 01/01/2020 – 31/12/2026', '03/10/2026', c['cr'],
+           'Crossref no admite operadores booleanos: se buscó cada combinación de términos P e I y se conservaron solo los registros que cumplen la ecuación en título y resumen.'])
+ws.append(['Total', '', '', '', '', c['total'], ''])
+ws.cell(ws.max_row, 1).font = Font(bold=True); ws.cell(ws.max_row, 6).font = Font(bold=True)
 for row in ws.iter_rows(min_row=2):
     for cell in row: cell.alignment = Alignment(wrap_text=True, vertical='top')
 
