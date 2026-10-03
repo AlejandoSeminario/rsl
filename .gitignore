@@ -1,0 +1,5 @@
+articulo/*.aux
+articulo/*.log
+articulo/*.out
+articulo/*.pdf
+__pycache__/

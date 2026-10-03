@@ -1,0 +1,33 @@
+{
+ "s2": 873,
+ "cr": 69,
+ "total": 942,
+ "dup": 64,
+ "f_type": 242,
+ "f_abs": 44,
+ "screened": 592,
+ "ex_screen": 497,
+ "elig": 95,
+ "incl": 46,
+ "ex_screen_by": {
+  "CE2: no aborda robótica social/HRI": 82,
+  "CI4 no cumplido: sin evaluación empírica o resultados relevantes": 182,
+  "CI3 no cumplido: no hay interacción multimodal": 231,
+  "CI2 no cumplido: no integra IA generativa": 2
+ },
+ "ex_ft_by": {
+  "CE2: robot sin función social/asistencial (conducción, manipulación industrial, doméstica o logística)": 12,
+  "CE3: sin robot físico (agente virtual, interfaz, dataset o reto de evaluación)": 30,
+  "CE4: estudio secundario (revisión), se usa solo como antecedente": 7
+ },
+ "incl_years": {
+  "2026": 20,
+  "2025": 21,
+  "2024": 3,
+  "2023": 2
+ },
+ "incl_types": {
+  "Conference paper": 9,
+  "Journal article": 37
+ }
+}

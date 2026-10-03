@@ -1,0 +1,276 @@
+% Avance de Trabajo de Investigación 2 (ATI2): Metodología de la RSL
+% Plantilla: Springer LNCS (clase llncs, disponible por defecto en Overleaf)
+\documentclass[runningheads]{llncs}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[spanish,es-noshorthands,es-tabla]{babel}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,calc}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\renewcommand\UrlFont{\color{blue}\rmfamily}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+
+\title{Integración de IA Generativa Multimodal en la Interacción Humano-Robot (HRI) para Robótica Social (2020--2026)}
+\titlerunning{IA Generativa Multimodal en HRI para Robótica Social}
+
+\author{Alejandro Valentino Seminario Medina\orcidID{0009-0006-5378-9115} \and
+Alvaro Jordy Ordaya Zapata\orcidID{0009-0005-0751-5474}}
+\authorrunning{A. V. Seminario Medina y A. J. Ordaya Zapata}
+\institute{Universidad Tecnológica del Perú, Piura, Perú\\
+\email{U22247454@utp.edu.pe, U20303695@utp.edu.pe}}
+
+\maketitle
+
+\begin{abstract}
+La incorporación de modelos generativos multimodales en la robótica social transformó la interacción humano-robot entre 2020 y 2026, pero la evidencia documenta limitaciones técnicas (latencia, errores de reconocimiento de voz y desincronización entre habla y gesto), cognitivas (fragilidad de la Teoría de la Mente y del razonamiento espacial) y éticas (sobre-antropomorfización y vulnerabilidad a la manipulación conversacional). Este avance presenta la metodología de una revisión sistemática de literatura (RSL) orientada a sistematizar las arquitecturas de fusión sensorial y de traducción de lenguaje a acción que abordan estas limitaciones. Se formuló una pregunta PICO, se definieron palabras clave controladas y una ecuación de búsqueda booleana que se aplicó de forma equivalente en Semantic Scholar y Crossref, y se seleccionaron los estudios conforme a la lógica de la declaración PRISMA 2020. De 942 registros identificados se eliminaron 64 duplicados, se cribaron 592 registros por título y resumen, se evaluaron 95 para elegibilidad y se incluyeron 46 estudios primarios publicados entre 2023 y 2026.
+
+\keywords{Robótica social \and Interacción humano-robot \and IA generativa multimodal \and Robots socialmente asistidos \and Revisión sistemática \and PRISMA.}
+\end{abstract}
+
+%=====================================================================
+\section{Introducción}
+%=====================================================================
+En el campo de la interacción humano-robot (HRI) aplicada a la robótica social, la integración de la inteligencia artificial generativa multimodal ha cobrado relevancia entre 2020 y 2026. La aparición de los modelos de lenguaje de gran tamaño (LLM) y de arquitecturas capaces de procesar texto, voz, imágenes y video de forma conjunta desplazó el diálogo basado en gramáticas cerradas y árboles de decisión por respuestas contextuales no anticipadas por el diseñador. Zhang y Soh (2023) señalan que un LLM puede operar como modelo humano \textit{zero-shot}; Kim et al. (2024) muestran que estos modelos reconfiguran las expectativas de diseñadores y usuarios; y Lai et al. (2025) evidencian, con la arquitectura NVP-HRI, la viabilidad de fusionar voz y postura en plataformas físicas.
+
+No obstante, la literatura presenta limitaciones. En el plano técnico, la memoria externa mediante generación aumentada por recuperación introduce retrasos de entre seis y quince segundos (Mauliana et al., 2025), los errores del reconocimiento automático de voz se concentran en hablantes no nativos y el modelo los encubre con respuestas plausibles (Verhelst y Belpaeme, 2025), y la voz expresiva y la gesticulación se generan en flujos independientes (Barakat et al., 2024). En el plano cognitivo, la Teoría de la Mente atribuida a los LLM se degrada ante perturbaciones triviales (Verma et al., 2024) y la falta de razonamiento espacial induce planes motores inseguros (Lai et al., 2025). En el plano ético, la expresividad del robot propicia la sobre-antropomorfización (Abercrombie et al., 2023) y los usuarios recurren al \textit{gaslighting} o al \textit{roleplay} para vulnerar sus resguardos (Abbo et al., 2025a). Las revisiones previas abordan estos aspectos por separado (Barakat et al., 2024; Maure y Bruno, 2025) y no cubren la evidencia de 2024--2026.
+
+El objetivo de la RSL es sistematizar el estado del arte sobre la integración de IA generativa multimodal en la HRI para robótica social entre 2020 y 2026, con énfasis en las arquitecturas propuestas para mitigar la latencia, sincronizar la comunicación no verbal y garantizar la gobernanza ética de la interacción. El presente avance describe la metodología seguida para identificar y seleccionar los estudios.
+
+%=====================================================================
+\section{Metodología}
+%=====================================================================
+\subsection{Tipo de estudio y protocolo}
+Se realizó una revisión sistemática de literatura siguiendo las directrices de Kitchenham y Charters (2007) para ingeniería de software y la lógica de selección y reporte de la declaración PRISMA 2020 (Page et al., 2021). El proceso comprendió cinco fases: (1) formulación de la pregunta mediante la estrategia PICO; (2) definición de palabras clave y construcción de la ecuación de búsqueda; (3) definición de los criterios de elegibilidad; (4) búsqueda en bases de datos científicas y exportación de registros a Excel; y (5) selección sistemática de estudios documentada en un diagrama de flujo PRISMA. La búsqueda, la eliminación de duplicados y la aplicación de filtros se ejecutaron mediante scripts reproducibles que acompañan a la base de datos en Excel.
+
+\subsection{Pregunta de investigación (estrategia PICO)}
+La estrategia PICO permite descomponer la pregunta de investigación en componentes que se traducen directamente en términos de búsqueda (Santos et al., 2007). La Tabla~\ref{tab:pico} presenta los componentes y sus palabras clave. La pregunta formulada es:
+
+\begin{quote}
+\textit{En robots sociales, socialmente asistivos y de compañía (P), ¿qué arquitecturas de integración de IA generativa multimodal ---fusión sensorial y traducción de lenguaje a acción con LLM o VLM--- (I), frente a los enfoques de diálogo guionado o unimodal (C), se han propuesto y qué resultados reportan sobre la latencia de respuesta, la sincronización de la comunicación no verbal, el desempeño cognitivo y la gobernanza ética de la interacción (O)?}
+\end{quote}
+
+\begin{table}[htbp]
+\centering
+\caption{Componentes de la pregunta PICO y palabras clave asociadas.}
+\label{tab:pico}
+\footnotesize
+\begin{tabular}{L{1.2cm}L{3.5cm}L{6.6cm}}
+\toprule
+\textbf{Comp.} & \textbf{Descripción} & \textbf{Palabras clave (inglés)} \\
+\midrule
+P & Robots sociales, socialmente asistivos y de compañía en HRI & ``social robot'', ``social robotics'', ``socially assistive robot'', ``companion robot'', ``human-robot interaction'' \\
+I & IA generativa multimodal: LLM, VLM y modelos fundacionales integrados al robot & ``large language model'', ``generative AI'', ``generative artificial intelligence'', ``vision-language model'', ``foundation model'', ``GPT'', ``ChatGPT'', ``multimodal LLM'' \\
+C & Diálogo guionado, basado en reglas o unimodal & No se incluye en la ecuación (componente no esencial que restringe en exceso los resultados) \\
+O & Latencia, sincronización verbal--no verbal, ToM y razonamiento espacial, confianza, antropomorfización, manipulación y seguridad & Se evalúa en el cribado (criterio CI4), no en la ecuación \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Palabras clave}
+Las palabras clave se obtuvieron de la ficha del tema de investigación y de los términos empleados en los títulos, resúmenes y descriptores de los estudios de referencia (Kim et al., 2024; Lai et al., 2025; Maure y Bruno, 2025). La Tabla~\ref{tab:kw} muestra los términos principales en español e inglés y sus sinónimos.
+
+\begin{table}[htbp]
+\centering
+\caption{Palabras clave especializadas y sinónimos.}
+\label{tab:kw}
+\footnotesize
+\begin{tabular}{L{3.3cm}L{3.3cm}L{4.8cm}}
+\toprule
+\textbf{Español} & \textbf{Inglés} & \textbf{Sinónimos / variantes} \\
+\midrule
+Robótica social & Social robotics & social robot(s) \\
+Robots socialmente asistivos & Socially assistive robots & companion robot(s) \\
+Interacción humano-robot & Human-robot interaction & HRI \\
+IA generativa multimodal & Multimodal generative AI & generative AI, multimodal LLM, vision-language model \\
+Modelos de lenguaje de gran tamaño & Large language models & LLM, GPT, ChatGPT, foundation model \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Ecuación de búsqueda}
+Los sinónimos de cada componente se agruparon con el operador \texttt{OR}, y los componentes P e I se unieron con \texttt{AND}. Los componentes C y O se excluyeron de la ecuación porque su inclusión reducía los resultados a conjuntos truncos. Se aplicaron en el cribado mediante los criterios de elegibilidad. La ecuación genérica es:
+
+\begin{quote}\small\ttfamily\raggedright
+("social robot*" OR "social robotics" OR "socially assistive robot*" OR "companion robot*" OR "human-robot interaction") AND ("large language model*" OR "generative AI" OR "generative artificial intelligence" OR "vision-language model*" OR "foundation model*" OR GPT OR ChatGPT OR "multimodal LLM")
+\end{quote}
+
+La Tabla~\ref{tab:eq} presenta su sintaxis en cada base de datos. En Semantic Scholar, el operador \texttt{+} equivale a \texttt{AND} y \texttt{|} a \texttt{OR}; las formas plurales se escribieron explícitamente en lugar del truncamiento. En Crossref, cuya API no admite operadores booleanos, se ejecutaron las 30 combinaciones P$\times$I. Después se aplicó la misma ecuación booleana sobre el título y el resumen de cada registro, por lo que ambas búsquedas son lógicamente equivalentes. Las sintaxis para Scopus y Web of Science se incluyen para facilitar la replicación.
+
+\begin{table}[htbp]
+\centering
+\caption{Ecuaciones de búsqueda equivalentes por base de datos (ejecución: 3 de octubre de 2026).}
+\label{tab:eq}
+\scriptsize
+\begin{tabular}{L{1.9cm}L{7.4cm}L{1.8cm}}
+\toprule
+\textbf{Base} & \textbf{Ecuación / campos} & \textbf{Registros} \\
+\midrule
+Semantic Scholar & \texttt{("social robot" | "social robots" | "social robotics" | "socially assistive robot" | "socially assistive robots" | "companion robot" | "human-robot interaction") + ("large language model" | "large language models" | "generative AI" | "generative artificial intelligence" | "vision-language model" | "foundation model" | "GPT" | "ChatGPT" | "multimodal LLM")}; título y resumen; años 2020--2026 & 873 \\
+\addlinespace
+Crossref & Consultas \texttt{query.bibliographic} = P$_i$ + I$_j$ (5$\times$6), \texttt{from-pub-date:2020-01-01}, \texttt{until-pub-date:2026-12-31}; filtro posterior con la ecuación booleana en título y resumen & 69 \\
+\addlinespace
+Scopus & \texttt{TITLE-ABS-KEY(<P>) AND TITLE-ABS-KEY(<I>) AND PUBYEAR > 2019 AND PUBYEAR < 2027 AND LIMIT-TO(DOCTYPE,"ar" OR "cp") AND LIMIT-TO(LANGUAGE,"English" OR "Spanish")} & Replicación \\
+\addlinespace
+Web of Science & \texttt{TS=(<P>) AND TS=(<I>)}; PY=2020--2026; DT=Article o Proceedings Paper & Replicación \\
+\midrule
+\multicolumn{2}{r}{\textbf{Total identificado}} & \textbf{942} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Criterios de inclusión y exclusión}
+Los criterios de elegibilidad se derivaron de los componentes de la pregunta PICO (Tabla~\ref{tab:criterios}) y se aplicaron tanto en el cribado por título y resumen como en la evaluación de elegibilidad. El periodo 2020--2026 no es arbitrario. Comienza con la publicación de los primeros LLM generativos de propósito general, que habilitaron la conversación abierta en robots sociales, y cubre la evidencia posterior a la ventana de las revisiones previas (Barakat et al., 2024; Maure y Bruno, 2025).
+
+\begin{table}[htbp]
+\centering
+\caption{Criterios de inclusión (CI) y de exclusión (CE).}
+\label{tab:criterios}
+\footnotesize
+\begin{tabular}{L{0.9cm}L{10.4cm}}
+\toprule
+\textbf{Cód.} & \textbf{Criterio} \\
+\midrule
+CI1 & El estudio aborda robots sociales, socialmente asistivos o de compañía, o la HRI con un robot físico (P). \\
+CI2 & El robot integra IA generativa: LLM, VLM, modelos fundacionales o GPT (I). \\
+CI3 & La interacción es multimodal: combina al menos dos canales entre voz, texto, imagen, video, gesto, mirada, expresión facial o señales fisiológicas (I). \\
+CI4 & Reporta una evaluación empírica (estudio con usuarios, experimento, piloto o evaluación técnica) con resultados sobre latencia, comportamiento no verbal, desempeño cognitivo, aceptación, confianza o aspectos éticos (O). \\
+CI5 & Artículo de revista o de conferencia revisado por pares, publicado entre 2020 y 2026, en inglés o español. \\
+\midrule
+CE1 & Preprints sin revisión por pares, tesis, libros, capítulos, editoriales y otros documentos no indexados. \\
+CE2 & Robots sin función social o asistencial (conducción autónoma, manipulación industrial, logística o tareas domésticas sin interacción social). \\
+CE3 & Estudios sin robot físico: agentes virtuales, chatbots, interfaces, conjuntos de datos o retos de evaluación. \\
+CE4 & Estudios secundarios (revisiones), que se emplean solo como antecedentes. \\
+CE5 & Registros sin resumen disponible o sin texto completo accesible. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Búsqueda sistemática y base de datos de resultados}
+La búsqueda se ejecutó el 3 de octubre de 2026 en Semantic Scholar, mediante su API de búsqueda masiva sobre título y resumen (Kinney et al., 2023), y en Crossref, mediante su API REST (Hendricks et al., 2020). Los registros se exportaron a la hoja \textit{Registros} del archivo \textit{Base\_de\_datos.Seminario-Ordaya.xlsx}. Cada registro incluye el identificador, la base de origen, el título, los autores, el año, la fuente, el tipo de documento, el DOI y el resumen, así como la etapa PRISMA, la decisión y el criterio aplicado. La hoja \textit{Ecuaciones} documenta la sintaxis, los filtros, la fecha y el número de registros de cada base, de modo que la búsqueda es reproducible.
+
+\subsection{Proceso de selección}
+La selección siguió los pasos de PRISMA 2020 (Page et al., 2021) y se documenta en la Fig.~\ref{fig:prisma}:
+
+\begin{enumerate}
+\item \textbf{Identificación.} Se recuperaron 942 registros (873 de Semantic Scholar y 69 de Crossref).
+\item \textbf{Eliminación de duplicados.} Se eliminaron 64 duplicados, identificados por coincidencia de DOI o de título normalizado, y quedaron 878 registros únicos.
+\item \textbf{Filtros previos al cribado.} Se excluyeron 242 registros por tipo de documento o por tratarse de preprints (CE1) y 44 sin resumen disponible (CE5).
+\item \textbf{Cribado por título y resumen.} Se revisaron 592 registros y se excluyeron 497: 82 no abordaban robótica social ni HRI (CE2), 2 no integraban IA generativa (CI2), 231 no describían interacción multimodal (CI3) y 182 no reportaban evaluación empírica ni resultados relacionados con los desenlaces de interés (CI4). El cribado se apoyó en reglas de palabras clave equivalentes a cada criterio, y sus resultados fueron revisados por los autores.
+\item \textbf{Elegibilidad.} Se evaluaron 95 informes y se excluyeron 49: 30 sin robot físico (CE3), 12 con robots sin función social (CE2) y 7 revisiones (CE4).
+\item \textbf{Inclusión.} Se incluyeron 46 estudios primarios: 37 artículos de revista y 9 artículos de conferencia, publicados en 2023 (2), 2024 (3), 2025 (21) y 2026 (20). La Tabla~\ref{tab:incluidos} lista los estudios incluidos.
+\end{enumerate}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+  font=\scriptsize,
+  box/.style={draw, rectangle, align=center, text width=4.6cm, minimum height=0.9cm, inner sep=3pt},
+  side/.style={draw, rectangle, align=left, text width=5.3cm, minimum height=0.9cm, inner sep=3pt},
+  phase/.style={draw, fill=blue!15, rectangle, rotate=90, align=center, minimum width=1.5cm, minimum height=0.5cm, font=\scriptsize\bfseries},
+  arr/.style={-{Stealth[length=2mm]}}, node distance=0.55cm]
+\node[box] (id) {Registros identificados (n = 942):\\ Semantic Scholar (n = 873)\\ Crossref (n = 69)};
+\node[side, right=0.6cm of id] (dup) {Registros eliminados antes del cribado:\\ Duplicados (n = 64)\\ Preprints / tipo no elegible, CE1 (n = 242)\\ Sin resumen, CE5 (n = 44)};
+\node[box, below=1.0cm of id] (scr) {Registros cribados por título y resumen\\ (n = 592)};
+\node[side, right=0.6cm of scr] (exs) {Registros excluidos (n = 497):\\ CE2 sin robótica social (n = 82)\\ CI2 sin IA generativa (n = 2)\\ CI3 sin interacción multimodal (n = 231)\\ CI4 sin evaluación empírica (n = 182)};
+\node[box, below=1.0cm of scr] (el) {Informes evaluados para elegibilidad\\ (n = 95)};
+\node[side, right=0.6cm of el] (exe) {Informes excluidos (n = 49):\\ CE3 sin robot físico (n = 30)\\ CE2 robot sin función social (n = 12)\\ CE4 revisiones (n = 7)};
+\node[box, below=1.0cm of el, fill=green!10] (inc) {Estudios incluidos en la RSL\\ (n = 46)};
+\draw[arr] (id) -- (scr); \draw[arr] (scr) -- (el); \draw[arr] (el) -- (inc);
+\draw[arr] (id) -- (dup); \draw[arr] (scr) -- (exs); \draw[arr] (el) -- (exe);
+\node[phase] at ($(id.west)+(-0.55,0)$) {Identificación};
+\node[phase] at ($(scr.west)+(-0.55,0)$) {Cribado};
+\node[phase] at ($(el.west)+(-0.55,0)$) {Elegibilidad};
+\node[phase] at ($(inc.west)+(-0.55,0)$) {Inclusión};
+\end{tikzpicture}
+\caption{Diagrama de flujo PRISMA 2020 del proceso de selección (adaptado de Page et al., 2021).}
+\label{fig:prisma}
+\end{figure}
+
+\subsection{Extracción de datos}
+La información de los estudios incluidos se registrará en un formulario de extracción en Excel (\textit{Formulario.Seminario-Ordaya.xlsx}), entregado como documento aparte. Cada fila corresponde a un estudio, y las columnas siguen las tres dimensiones del objetivo:
+\begin{itemize}
+\item datos bibliográficos y de diseño: referencia, año, país, tipo de estudio, plataforma robótica, población y número de participantes;
+\item dimensión técnica: modelo generativo, tipo de despliegue (nube, local o borde), modalidades de entrada y de salida, arquitectura de fusión sensorial, traducción de lenguaje a acción, latencia reportada y su mitigación, sincronización verbal--no verbal y robustez del reconocimiento de voz;
+\item dimensiones cognitiva y ética: limitaciones de razonamiento y alucinaciones, riesgos éticos identificados y salvaguardas propuestas;
+\item cierre: métricas, resultados principales, limitaciones declaradas y observaciones del revisor.
+\end{itemize}
+Dos revisores extraerán los datos de forma independiente y resolverán las discrepancias por consenso.
+
+{\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{r L{2.2cm} L{5.3cm} L{3.3cm}}
+\caption{Estudios incluidos en la RSL (n = 46).}\label{tab:incluidos}\\
+\toprule
+\textbf{N.º} & \textbf{Estudio} & \textbf{Título} & \textbf{Fuente} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{N.º} & \textbf{Estudio} & \textbf{Título} & \textbf{Fuente} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\input{tabla_incluidos.tex}
+\end{longtable}
+}
+
+%=====================================================================
+\section*{Referencias}
+%=====================================================================
+\begingroup
+\renewcommand{\section}[2]{}
+\begin{thebibliography}{99}
+\small
+
+\bibitem{abbo2025} Abbo, G. A., Desideri, G., Belpaeme, T., y Spitale, M. (2025a). ``Can you be my mum?'': Manipulating social robots in the large language models era. En \textit{Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction (HRI)} (pp. 1181--1185). IEEE.
+
+\bibitem{abercrombie2023} Abercrombie, G., Cercas Curry, A., Dinkar, T., Rieser, V., y Talat, Z. (2023). Mirages: On anthropomorphism in dialogue systems. En \textit{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing} (pp. 4776--4790). \url{https://doi.org/10.18653/v1/2023.emnlp-main.290}
+
+\bibitem{barakat2024} Barakat, H., Turk, O., y Demiroglu, C. (2024). Deep learning-based expressive speech synthesis: A systematic review of approaches, challenges, and resources. \textit{EURASIP Journal on Audio, Speech, and Music Processing, 2024}(1), 1--34. \url{https://doi.org/10.1186/s13636-024-00329-7}
+
+\bibitem{hendricks2020} Hendricks, G., Tkaczyk, D., Lin, J., y Feeney, P. (2020). Crossref: The sustainable source of community-owned scholarly metadata. \textit{Quantitative Science Studies, 1}(1), 414--427. \url{https://doi.org/10.1162/qss_a_00022}
+
+\bibitem{kim2024} Kim, C. Y., Lee, C. P., y Mutlu, B. (2024). Understanding large-language model (LLM)-powered human-robot interaction. En \textit{Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction} (pp. 371--380). \url{https://doi.org/10.1145/3610977.3634966}
+
+\bibitem{kinney2023} Kinney, R., Anastasiades, C., Authur, R., Beltagy, I., Bragg, J., Buraczynski, A., \ldots{} Weld, D. S. (2023). \textit{The Semantic Scholar Open Data Platform} (arXiv:2301.10140). arXiv. \url{https://doi.org/10.48550/arXiv.2301.10140}
+
+\bibitem{kitchenham2007} Kitchenham, B., y Charters, S. (2007). \textit{Guidelines for performing systematic literature reviews in software engineering} (EBSE Technical Report EBSE-2007-01). Keele University y Durham University.
+
+\bibitem{lai2025} Lai, Y., Yuan, S., Nassar, Y., Fan, M., Weber, T., y Rätsch, M. (2025). NVP-HRI: Zero shot natural voice and posture-based human--robot interaction via large language model. \textit{Expert Systems with Applications, 268}, 126360. \url{https://doi.org/10.1016/j.eswa.2025.126360}
+
+\bibitem{maure2025} Maure, R., y Bruno, B. (2025). Autonomy in socially assistive robotics: A systematic review. \textit{Frontiers in Robotics and AI, 12}, 1586473. \url{https://doi.org/10.3389/frobt.2025.1586473}
+
+\bibitem{mauliana2025} Mauliana, M., Ashok, A., Czernochowski, D., y Berns, K. (2025). Exploring LLM-powered multi-session human-robot interactions with university students. \textit{Frontiers in Robotics and AI, 12}, 1585589. \url{https://doi.org/10.3389/frobt.2025.1585589}
+
+\bibitem{page2021} Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., \ldots{} Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. \textit{BMJ, 372}, n71. \url{https://doi.org/10.1136/bmj.n71}
+
+\bibitem{santos2007} Santos, C. M. C., Pimenta, C. A. M., y Nobre, M. R. C. (2007). The PICO strategy for the research question construction and evidence search. \textit{Revista Latino-Americana de Enfermagem, 15}(3), 508--511. \url{https://doi.org/10.1590/S0104-11692007000300023}
+
+\bibitem{verhelst2025} Verhelst, E., y Belpaeme, T. (2025). Large language models cover for speech recognition mistakes: Evaluating conversational AI for second language learners. En \textit{Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction (HRI)} (pp. 1705--1709). IEEE.
+
+\bibitem{verma2024} Verma, M., Bhambri, S., y Kambhampati, S. (2024). Theory of mind abilities of large language models in human-robot interaction: An illusion? En \textit{Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction} (pp. 37--45). \url{https://doi.org/10.1145/3610978.3640767}
+
+\bibitem{zhang2023} Zhang, B., y Soh, H. (2023). Large language models as zero-shot human models for human-robot interaction. En \textit{2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)} (pp. 7961--7968). \url{https://doi.org/10.1109/IROS55552.2023.10341488}
+
+\end{thebibliography}
+\endgroup
+
+\subsection*{Estudios incluidos en la RSL}
+\begingroup
+\renewcommand{\section}[2]{}
+\begin{thebibliography}{99}
+\small
+\input{refs_incluidos.tex}
+\end{thebibliography}
+\endgroup
+
+\end{document}
