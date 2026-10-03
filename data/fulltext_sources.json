@@ -1,0 +1,1047 @@
+{
+ "R0001": {
+  "doi": "10.1145/3776734.3794539",
+  "title": "SafeHumanoid: VLM-RAG-Driven Impedance Control of Humanoid Robot",
+  "source": "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0016": {
+  "doi": "10.23919/iccas66577.2025.11301244",
+  "title": "Autonomous Car Control Via Natural Language Commands Using ChatGPT and Raspberry Pi",
+  "source": "2025 25th International Conference on Control, Automation and Systems (ICCAS)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0018": {
+  "doi": "10.1145/3776734.3794390",
+  "title": "Can Vision Language Models Zero-Shot Thermal Images for Private and Robust Human Robot Interaction?",
+  "source": "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0020": {
+  "doi": "10.1109/aim65483.2026.11658058",
+  "title": "Multimodal-Language-Model\u2013Driven Interaction and Companionship for Service Robots in Elderly-Care Facilities",
+  "source": "2026 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)",
+  "oa": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null
+  },
+  "arxiv": "2608.21387"
+ },
+ "R0047": {
+  "doi": "10.1145/3787109.3815259",
+  "title": "PiCASO: A Real-time Pi-Integrated Conversational AI System with Optimized LLMs",
+  "source": "Proceedings of the Great Lakes Symposium on VLSI 2026",
+  "oa": {
+   "url": "https://doi.org/10.1145/3787109.3815259",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0051": {
+  "doi": "10.1109/hri61500.2025.10973958",
+  "title": "Applying General Turn-Taking Models to Conversational Human-Robot Interaction",
+  "source": "2025 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
+  "oa": {
+   "url": "http://arxiv.org/pdf/2501.08946",
+   "status": "GREEN",
+   "license": null
+  },
+  "arxiv": "2501.08946"
+ },
+ "R0070": {
+  "doi": "10.1145/3776734.3794436",
+  "title": "Expressive Furhat: Generating Real-Time Facial Expressions for Human-Robot Dialogue with LLMs",
+  "source": "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0072": {
+  "doi": "10.1109/biorob66782.2026.11681492",
+  "title": "A Dash of Pepper, A Dose of Care: A Context-Aware, Emotionally Adaptive, Intelligent Social Robot for Long-Term Medication Adherence",
+  "source": "2026 11th IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics (BioRob)",
+  "oa": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0076": {
+  "doi": "10.1007/s12369-026-01407-w",
+  "title": "Focus Group-Led Refinement of an LLM-Enabled Companion Robot for Older People",
+  "source": "International Journal of Social Robotics",
+  "oa": {
+   "url": "https://link.springer.com/content/pdf/10.1007/s12369-026-01407-w.pdf",
+   "status": "HYBRID",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0095": {
+  "doi": "10.1002/cae.70192",
+  "title": "Developing Personalized Multi\u2010Role Educational Robot Learning Assistants Based on Large Language Models",
+  "source": "Computer Applications in Engineering Education",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0147": {
+  "doi": "10.1109/iros58592.2024.10801425",
+  "title": "NARRATE: Versatile Language Architecture for Optimal Control in Robotics",
+  "source": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "oa": {
+   "url": "https://arxiv.org/pdf/2403.10762",
+   "status": "GREEN",
+   "license": null
+  },
+  "arxiv": "2403.10762"
+ },
+ "R0158": {
+  "doi": "10.1109/aict67988.2025.11268654",
+  "title": "Multimodal LLMs for Emotion-Aware Human\u2013Robot Interaction: Design and Implementation",
+  "source": "2025 IEEE 19th International Conference on Application of Information and Communication Technologies (AICT)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0185": {
+  "doi": "10.1007/s12541-026-01573-x",
+  "title": "Practical Human\u2013Robot Interaction (HRI) through Large Language Model (LLM)-based Voice-to-Action Systems",
+  "source": "International Journal of Precision Engineering and Manufacturing",
+  "oa": {
+   "url": "https://link.springer.com/content/pdf/10.1007/s12541-026-01573-x.pdf",
+   "status": "HYBRID",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0198": {
+  "doi": "10.1145/3776734.3794474",
+  "title": "\u201cI Loved How Pepper Talked About My Hoodie\u201d: A Situated, MI-Grounded Multimodal Architecture for Engaging Conversation",
+  "source": "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0200": {
+  "doi": "10.1061/jccee5.cpeng-7372",
+  "title": "Noise-Invariant Agentic Human-Robot Interaction GenAI System Using a Dual-Encoder Contrastive ASR Architecture and VLMs for Robot Control and Navigation in Acoustically Challenging Jobsites",
+  "source": "J. Comput. Civ. Eng.",
+  "oa": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0201": {
+  "doi": "10.1109/rivf68649.2025.11364526",
+  "title": "Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction",
+  "source": "2025 RIVF International Conference on Computing and Communication Technologies (RIVF)",
+  "oa": {
+   "url": "https://arxiv.org/pdf/2609.05361",
+   "status": "GREEN",
+   "license": null
+  },
+  "arxiv": "2609.05361"
+ },
+ "R0210": {
+  "doi": "10.1145/3610977.3634966",
+  "title": "Understanding Large-Language Model (LLM)-powered Human-Robot Interaction",
+  "source": "2024 19th ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
+  "oa": {
+   "url": "https://arxiv.org/pdf/2401.03217",
+   "status": "GREEN",
+   "license": null
+  },
+  "arxiv": "2401.03217"
+ },
+ "R0212": {
+  "doi": "10.3390/app15116377",
+  "title": "Designing Social Robots with LLMs for Engaging Human Interaction",
+  "source": "Applied Sciences",
+  "oa": {
+   "url": "https://www.mdpi.com/2076-3417/15/11/6377/pdf?version=1749204885",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0216": {
+  "doi": "10.5210/dad.2025.304",
+  "title": "Graph-to-Text Approach to Knowledge-Grounded Response Generation in Human-Robot Interaction",
+  "source": "Dialogue Discourse",
+  "oa": {
+   "url": "https://doi.org/10.5210/dad.2025.304",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0219": {
+  "doi": "10.1109/access.2025.3635471",
+  "title": "Interpretable Robot Control via Structured Behavior Trees and Large Language Models",
+  "source": "IEEE Access",
+  "oa": {
+   "url": "https://doi.org/10.1109/access.2025.3635471",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": "2508.09621"
+ },
+ "R0226": {
+  "doi": "10.1109/icesst69086.2026.11582887",
+  "title": "AI-Driven Humanoid Animatronic Face for Real-Time Multimodal Human-Robot Interaction",
+  "source": "2026 IEEE International Conference on Emerging Synergy Science and Technology (ICESST)",
+  "oa": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0236": {
+  "doi": "10.1145/3610978.3640562",
+  "title": "Ain't Misbehavin' - Using LLMs to Generate Expressive Robot Behavior in Conversations with the Tabletop Robot Haru",
+  "source": "Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction",
+  "oa": {
+   "url": "https://dl.acm.org/doi/pdf/10.1145/3610978.3640562",
+   "status": "GOLD",
+   "license": "CCBYSA"
+  },
+  "arxiv": "2402.11571"
+ },
+ "R0253": {
+  "doi": "10.1609/aaaiss.v7i1.36890",
+  "title": "Grounded Instruction Understanding with Large Language Models: Toward Trustworthy Human-Robot Interaction",
+  "source": "AAAI Fall Symposia",
+  "oa": {
+   "url": "https://ojs.aaai.org/index.php/AAAI-SS/article/download/36890/39028",
+   "status": "GOLD",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0264": {
+  "doi": "10.1109/ro-man63969.2025.11217560",
+  "title": "Bridging Divides through Empathetic Robot Dialogue in Remote Interpersonal Conflict",
+  "source": "2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0269": {
+  "doi": "10.1145/3714394.3756161",
+  "title": "Biosensing-Driven Cognitive Augmentation: Real-Time Mind Wandering Detection and Robot Intervention",
+  "source": "Companion of the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+  "oa": {
+   "url": "https://doi.org/10.1145/3714394.3756161",
+   "status": "GOLD",
+   "license": "CCBYNCSA"
+  },
+  "arxiv": null
+ },
+ "R0283": {
+  "doi": "10.1145/3766557.3766588",
+  "title": "Leveraging Facial Symmetry and Global Dependencies An LLM-Inspired Framework for Robust Facial Expression Recognition",
+  "source": "Proceedings of the 2025 International Conference on Educational Technology and Artificial Intelligence",
+  "oa": {
+   "url": "https://dl.acm.org/doi/pdf/10.1145/3766557.3766588",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0286": {
+  "doi": "10.1145/3776734.3794485",
+  "title": "Facilitating Co-regulation: An LLM-Powered Multimodal Social Robot for Parent-Child Dyads",
+  "source": "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+  "oa": {
+   "url": "https://research.tue.nl/en/publications/20967942-c6eb-476f-b2bd-e835d204b556",
+   "status": "GREEN",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0288": {
+  "doi": "10.1075/is.25014.gar",
+  "title": "Evaluating multi-party interactions with social robots using large language models and multi-modal systems",
+  "source": "Interaction Studies. Social Behaviour and Communication in Biological and Artificial Systems",
+  "oa": {
+   "url": "https://doi.org/10.1075/is.25014.gar",
+   "status": "HYBRID",
+   "license": "CCBYNCND"
+  },
+  "arxiv": null
+ },
+ "R0292": {
+  "doi": "10.1109/hri61500.2025.10973837",
+  "title": "\u201cThanks for the Practice!\u201d: LLM-Powered Social Robot as Tandem Language Partner at University",
+  "source": "2025 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
+  "oa": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0293": {
+  "doi": "10.3390/s26041209",
+  "title": "A Multimodal Adaptive Framework for Social Interaction with the MiRo-E Robot",
+  "source": "Sensors (Basel, Switzerland)",
+  "oa": {
+   "url": "https://www.mdpi.com/1424-8220/26/4/1209/pdf?version=1770906094",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0295": {
+  "doi": "10.48550/arxiv.2509.04356",
+  "title": "SRWToolkit: An Open Source Wizard of Oz Toolkit to Create Social Robotic Avatars",
+  "source": "ICSR+AI",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": "2509.04356"
+ },
+ "R0302": {
+  "doi": "10.1109/cascon66301.2025.00089",
+  "title": "Towards a Small Behavioral Model (SBM) for Theomorphic Robots",
+  "source": "2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0313": {
+  "doi": "10.1109/robio58561.2023.10354952",
+  "title": "A Smart Interactive Camera Robot Based on Large Language Models",
+  "source": "2023 IEEE International Conference on Robotics and Biomimetics (ROBIO)",
+  "oa": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0331": {
+  "doi": "10.1145/3706598.3714238",
+  "title": "GenComUI: Exploring Generative Visual Aids as Medium to Support Task-Oriented Human-Robot Communication",
+  "source": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
+  "oa": {
+   "url": "https://arxiv.org/pdf/2502.10678",
+   "status": "GREEN",
+   "license": null
+  },
+  "arxiv": "2502.10678"
+ },
+ "R0333": {
+  "doi": "10.1145/3813107",
+  "title": "Enhancing End-user Engagement in Human\u2013Robot Interaction by Performing LLM-driven Expressive Behaviors",
+  "source": "ACM Transactions on Human-Robot Interaction",
+  "oa": {
+   "url": "https://doi.org/10.1145/3813107",
+   "status": "HYBRID",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0339": {
+  "doi": "10.1007/s12369-025-01323-5",
+  "title": "Socially Assistive Robots in Mental Healthcare: Principles and Conceptual Framework for User-Centered Design",
+  "source": "International Journal of Social Robotics",
+  "oa": {
+   "url": "https://link.springer.com/content/pdf/10.1007/s12369-025-01323-5.pdf",
+   "status": "HYBRID",
+   "license": "CCBYNCND"
+  },
+  "arxiv": null
+ },
+ "R0340": {
+  "doi": "10.1007/s12193-026-00477-4",
+  "title": "MODIFF-8 to better motivate: Live adaptive human-socially interactive agent interaction",
+  "source": "Journal on Multimodal User Interfaces",
+  "oa": {
+   "url": "https://hal.science/hal-05725829",
+   "status": "GREEN",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0347": {
+  "doi": "10.1109/scored68498.2025.11399235",
+  "title": "Conversational Co-Pilot: Enabling Intent-Aligned Navigation in Smart Walkers",
+  "source": "2025 IEEE 23rd Student Conference on Research and Development (SCOReD)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0356": {
+  "doi": "10.1145/3716553.3750767",
+  "title": "USER-VLM 360: Personalized Vision Language Models with User-aware Tuning for Social Human-Robot Interactions",
+  "source": "Proceedings of the 27th International Conference on Multimodal Interaction",
+  "oa": {
+   "url": "https://doi.org/10.1145/3716553.3750767",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": "2502.10636"
+ },
+ "R0363": {
+  "doi": "10.1515/cdbme-2025-0312",
+  "title": "A multi-dimensional concept for evaluating NLP-based robots in healthcare scenarios",
+  "source": "Current Directions in Biomedical Engineering",
+  "oa": {
+   "url": "https://doi.org/10.1515/cdbme-2025-0312",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0376": {
+  "doi": "10.1109/iccca66364.2025.11325440",
+  "title": "Real-Time Emotion Recognition and Response Generation via LLM-Embedded Multimodal Interfaces",
+  "source": "2025 IEEE 7th International Conference on Computing, Communication and Automation (ICCCA)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0400": {
+  "doi": "10.3390/app16073369",
+  "title": "Personalization and Generative Dialogue in Social Robotics for Eldercare: A User Study",
+  "source": "Applied Sciences",
+  "oa": {
+   "url": "https://www.mdpi.com/2076-3417/16/7/3369/pdf?version=1774946391",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0402": {
+  "doi": "10.1109/ro-man63969.2025.11217707",
+  "title": "Reasoning LLMs for User-Aware Multimodal Conversational Agents",
+  "source": "2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": "2504.01700"
+ },
+ "R0405": {
+  "doi": "10.1109/ro-man63969.2025.11217629",
+  "title": "Integrating LLM into a Socially Assistive Robot for Social Dialogue: An Exploratory Study in a Nursing Home*",
+  "source": "2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0410": {
+  "doi": "10.1145/3746027.3762073",
+  "title": "ERR@HRI 2.0 Challenge: Multimodal Detection of Errors and Failures in Human-Robot Conversations",
+  "source": "Proceedings of the 33rd ACM International Conference on Multimedia",
+  "oa": {
+   "url": "https://doi.org/10.1145/3746027.3762073",
+   "status": "GOLD",
+   "license": "CCBYNC"
+  },
+  "arxiv": "2507.13468"
+ },
+ "R0416": {
+  "doi": "10.1145/3776734.3794429",
+  "title": "Fluid-Xpress: Emotion-Aware Dual-Loop Framework for Empathic Facial Reaction in HRI",
+  "source": "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+  "oa": {
+   "url": "https://shura.shu.ac.uk/37180/1/Ma-Fluid-XpressEmotion-Aware%28VoR%29.pdf",
+   "status": "GREEN",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0423": {
+  "doi": "10.1007/s12369-025-01301-x",
+  "title": "LLM-Driven Robots Risk Enacting Discrimination, Violence, and Unlawful Actions",
+  "source": "International Journal of Social Robotics",
+  "oa": {
+   "url": "https://link.springer.com/content/pdf/10.1007/s12369-025-01301-x.pdf",
+   "status": "HYBRID",
+   "license": "CCBY"
+  },
+  "arxiv": "2406.08824"
+ },
+ "R0424": {
+  "doi": "10.1109/icra55743.2025.11128329",
+  "title": "Robi Butler: Multimodal Remote Interaction with a Household Robot Assistant",
+  "source": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": "2409.20548"
+ },
+ "R0431": {
+  "doi": "10.1109/hri61500.2025.10973852",
+  "title": "Touched by ChatGPT: Using an LLM to Drive Affective Tactile Interaction",
+  "source": "2025 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
+  "oa": {
+   "url": "https://biblio.ugent.be/publication/01JPQBGRHMKE0M3X1NEPB1Y2FB/file/01JPQC2KDAYBBXT3DA5X21Z82F.pdf",
+   "status": "GREEN",
+   "license": "other-oa"
+  },
+  "arxiv": "2501.07224"
+ },
+ "R0439": {
+  "doi": "10.1093/geroni/igaf122.1743",
+  "title": "Conversational Analyses of Older Adults\u2019 Social Engagement with AI-Driven Socially Assistive Robots",
+  "source": "Innovation in Aging",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0445": {
+  "doi": "10.3389/frobt.2025.1581024",
+  "title": "Simultaneous text and gesture generation for social robots with small language models",
+  "source": "Frontiers in Robotics and AI",
+  "oa": {
+   "url": "https://doi.org/10.3389/frobt.2025.1581024",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0460": {
+  "doi": "10.1109/tcds.2024.3442203",
+  "title": "Multimodal Emotion Fusion Mechanism and Empathetic Responses in Companion Robots",
+  "source": "IEEE Transactions on Cognitive and Developmental Systems",
+  "oa": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0473": {
+  "doi": "10.1109/aim65483.2026.11658264",
+  "title": "A Multimodal Emotional Interaction Framework Driven by Large Language Models",
+  "source": "2026 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)",
+  "oa": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0477": {
+  "doi": "10.5815/ijitcs.2026.04.04",
+  "title": "Edge AI-Based Object Detection via Voice Recognition with an LLM-Based Emotional Assistant for Elderly Care Robots",
+  "source": "International Journal of Information Technology and Computer Science",
+  "oa": {
+   "url": "https://www.mecs-press.org/ijitcs/ijitcs-v18-n4/IJITCS-V18-N4-4.pdf",
+   "status": "GOLD",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0479": {
+  "doi": "10.1109/robio66223.2025.11377720",
+  "title": "Improving Social Robot's Emotional Intelligence with Physiological Feedback",
+  "source": "2025 IEEE International Conference on Robotics and Biomimetics (ROBIO)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0488": {
+  "doi": "10.1109/icir70631.2026.11628389",
+  "title": "Multimodal Navigation Assistance for Older Adults: Combining Generative AI and Augmented Reality in a Robotic Walker",
+  "source": "2026 IEEE 5th International Conference on Intelligent Reality (ICIR)",
+  "oa": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0492": {
+  "doi": "10.1109/ro-man63969.2025.11217575",
+  "title": "Speech Recognition and LLM Performance in Elderly Care Home Conversations",
+  "source": "2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+  "oa": {
+   "url": "https://biblio.ugent.be/publication/01KC64YC184RMD8XY0EPP9KM9Z/file/01KC64ZP7AZQJ9E9EHNJE44X0V.pdf",
+   "status": "GREEN",
+   "license": "other-oa"
+  },
+  "arxiv": null
+ },
+ "R0516": {
+  "doi": "10.3390/educsci15091222",
+  "title": "Enhancing Student Motivation and Engagement Through the Use of a Slovenian-Speaking Social Robot AlphaMini",
+  "source": "Education Sciences",
+  "oa": {
+   "url": "https://www.mdpi.com/2227-7102/15/9/1222/pdf?version=1758023224",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0526": {
+  "doi": "10.3389/frobt.2025.1728647",
+  "title": "Evaluating human perceptions of android robot facial expressions based on variations in instruction styles",
+  "source": "Frontiers in Robotics and AI",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0528": {
+  "doi": "10.1109/cros69211.2026.11565712",
+  "title": "Integration of Local Generative Language Models in Humanoid Robots: An Approach with the NAO Robot and DeepSeek-LLM",
+  "source": "2026 Brazilian Conference on Robotics (CROS)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0535": {
+  "doi": "10.1109/access.2026.3688781",
+  "title": "Emotion Ontology From the Perspective of Developmental Robotics: A Review",
+  "source": "IEEE Access",
+  "oa": {
+   "url": "https://doi.org/10.1109/access.2026.3688781",
+   "status": "GOLD",
+   "license": "CCBYNCND"
+  },
+  "arxiv": null
+ },
+ "R0538": {
+  "doi": "10.2196/84110",
+  "title": "Multimodal Depression Detection Through Conversational Interactions with an Emotion-Aware Social Robot: Pilot Study",
+  "source": "JMIR Formative Research",
+  "oa": {
+   "url": "https://formative.jmir.org/2026/1/e84110/PDF",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0539": {
+  "doi": "10.1109/iccvw69036.2025.00258",
+  "title": "LLMs as NAO Robot 3D Motion Planners",
+  "source": "2025 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)",
+  "oa": {
+   "url": "https://hdl.handle.net/11380/1384296",
+   "status": "GREEN",
+   "license": "other-oa"
+  },
+  "arxiv": null
+ },
+ "R0541": {
+  "doi": "10.1109/iipem65914.2025.11548428",
+  "title": "Enhancing Collaborative Robotics through Large Language Model Integration: A Vision-Guided Approach Using ROS MCP Server",
+  "source": "2025 International Conference on Intelligent & Innovative Practices in Engineering & Management (IIPEM)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0553": {
+  "doi": "10.3390/healthcare14142106",
+  "title": "Conversational AI in Cognitive and Social Training for People with Dementia: A Systematic Review",
+  "source": "Healthcare",
+  "oa": {
+   "url": "https://doi.org/10.3390/healthcare14142106",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0556": {
+  "doi": "10.1109/tase.2026.3695438",
+  "title": "FAM-HRI: Foundation-Model Assisted Multimodal Human\u2013Robot Interaction Combining Gaze and Speech",
+  "source": "IEEE Transactions on Automation Science and Engineering",
+  "oa": {
+   "url": "https://arxiv.org/pdf/2503.16492",
+   "status": "GREEN",
+   "license": "CCBYNCND"
+  },
+  "arxiv": "2503.16492"
+ },
+ "R0562": {
+  "doi": "10.1145/3670653.3677521",
+  "title": "GRACE: Towards an Embodied Voice Assistant for Improving Quality of Life by Leveraging Elements of Cognitive Stimulation Therapy",
+  "source": "Proceedings of Mensch und Computer 2024",
+  "oa": {
+   "url": "https://doi.org/10.1145/3670653.3677521",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0575": {
+  "doi": "10.1109/taffc.2026.3691816",
+  "title": "Development of the Fully Automatic Robotic Storyteller\u2014Comparing Manual, Semi-Automatic, and LLM-Based Emotional Story Annotation for Multimodal Robotic Storytelling",
+  "source": "IEEE Transactions on Affective Computing",
+  "oa": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0588": {
+  "doi": "10.5555/3709347.3743537",
+  "title": "Beyond Words: Integrating Personality Traits and Context-Driven Gestures in Human-Robot Interactions",
+  "source": "Adaptive Agents and Multi-Agent Systems",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0591": {
+  "doi": "10.1109/ic-ftai67960.2025.11384544",
+  "title": "A Unified Framework Low Cost AI-Powered Humanoid Head for Expressive Multimodal Human-Robot Interaction",
+  "source": "2025 International Conference on Future Telecommunications and Artificial Intelligence (IC-FTAI)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0594": {
+  "doi": "10.62492/sefijeea.v2i2.30",
+  "title": "Teaching and Crafting Human-Robot Relational Ethics",
+  "source": "SEFI Journal of Engineering Education Advancement",
+  "oa": {
+   "url": "https://sefi-jeea.org/index.php/sefijeea/article/download/30/196",
+   "status": "HYBRID",
+   "license": "CCBYNCND"
+  },
+  "arxiv": null
+ },
+ "R0595": {
+  "doi": "10.1109/sbr/wre63066.2024.10837977",
+  "title": "LLM Text Generation for Service Robot Context",
+  "source": "2024 Brazilian Symposium on Robotics (SBR), and 2024 Workshop on Robotics in Education (WRE)",
+  "oa": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0615": {
+  "doi": "10.1109/iccre65455.2025.11093535",
+  "title": "Enhancing Receptionist Roles with AI: A Standalone Edge Device based Humanoid Robot Receptionist",
+  "source": "2025 10th International Conference on Control and Robotics Engineering (ICCRE)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0617": {
+  "doi": "10.3389/frobt.2026.1766383",
+  "title": "Multi-party open-ended conversation with a social robot",
+  "source": "Frontiers in Robotics and AI",
+  "oa": {
+   "url": "https://public-pages-files-2025.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2026.1766383/pdf",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": "2503.15496"
+ },
+ "R0620": {
+  "doi": "10.1109/lra.2026.3686643",
+  "title": "Bio-Inspired Flower Robot for Emotional Human-Robot Interaction",
+  "source": "IEEE Robotics and Automation Letters",
+  "oa": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0623": {
+  "doi": "10.2196/76496",
+  "title": "Acceptability and Usability of a Socially Assistive Robot Integrated With a Large Language Model for Enhanced Human-Robot Interaction in a Geriatric Care Institution: Mixed Methods Evaluation",
+  "source": "JMIR Human Factors",
+  "oa": {
+   "url": "https://doi.org/10.2196/76496",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0629": {
+  "doi": "10.1109/cbmi66578.2025.11339324",
+  "title": "MERCI: A Multimodal Dataset for Personalised and Emotionally-Aware Dialogues",
+  "source": "2025 International Conference on Content-Based Multimedia Indexing (CBMI)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0645": {
+  "doi": "10.3390/s25154687",
+  "title": "Which AI Sees Like Us? Investigating the Cognitive Plausibility of Language and Vision Models via Eye-Tracking in Human-Robot Interaction",
+  "source": "Sensors (Basel, Switzerland)",
+  "oa": {
+   "url": "https://doi.org/10.3390/s25154687",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0650": {
+  "doi": "10.1109/scisisis61014.2024.10759905",
+  "title": "Evaluation of a Writing Skill Enhancement System Through Dialogue for Children with Developmental Disorders Using Companion Robots",
+  "source": "2024 Joint 13th International Conference on Soft Computing and Intelligent Systems and 25th International Symposium on Advanced Intelligent Systems (SCIS&ISIS)",
+  "oa": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0671": {
+  "doi": "10.2196/81936",
+  "title": "Integrating a Large Language Model Into a Socially Assistive Robot in a Hospital Geriatric Unit: Two-Wave Comparative Study on Performance, Engagement, and User Perceptions",
+  "source": "JMIR Human Factors",
+  "oa": {
+   "url": "https://doi.org/10.2196/81936",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0685": {
+  "doi": "10.3390/app16167904",
+  "title": "The HEART Framework for LLM-Enabled Socially Assistive Robots in Healthcare: A PRISMA-Informed Structured Review",
+  "source": "Applied Sciences",
+  "oa": {
+   "url": "https://doi.org/10.3390/app16167904",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0686": {
+  "doi": "10.1109/ro-man63969.2025.11217528",
+  "title": "How do Foundation Models Compare to Skeleton-Based Approaches for Gesture Recognition in Human-Robot Interaction?",
+  "source": "2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": "2506.20795"
+ },
+ "R0688": {
+  "doi": "10.1109/cis-ram71614.2026.11668533",
+  "title": "DR-TSLM: Deictic Reference Resolution via Temporal-Spatial Large Language Model for Human-Robot Interaction",
+  "source": "2026 IEEE International Conference on Cybernetics and Intelligent Systems (CIS) and IEEE International Conference on Robotics, Automation and Mechatronics (RAM)",
+  "oa": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0697": {
+  "doi": "10.1145/3757279.3785635",
+  "title": "Context-Aware Generation and Modulation of Expressive Motion Behavior using Multimodal Foundation Models",
+  "source": "Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0699": {
+  "doi": "10.1145/3757279.3785634",
+  "title": "Bidirectional Human-Robot Communication for Physical Human-Robot Interaction",
+  "source": "Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+  "oa": {
+   "url": "https://doi.org/10.1145/3757279.3785634",
+   "status": "GOLD",
+   "license": "CCBYNCND"
+  },
+  "arxiv": "2601.10796"
+ },
+ "R0703": {
+  "doi": "10.1109/iros60139.2025.11246000",
+  "title": "RDMM: Enhancing Household Robotics with On-Device Contextual Memory and Decision Making",
+  "source": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0744": {
+  "doi": "10.1145/3774935.3806169",
+  "title": "Personalized Human\u2013Robot Interaction through Ontology-Based Knowledge Graphs and Large Language Models",
+  "source": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+  "oa": {
+   "url": "https://doi.org/10.1145/3774935.3806169",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0747": {
+  "doi": "10.1109/memea65319.2025.11068012",
+  "title": "A Child-Aware Setup for Automatic Evaluation of Interaction with Robots in NAO Autism Therapy",
+  "source": "2025 IEEE Medical Measurements & Applications (MeMeA)",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0754": {
+  "doi": "10.1145/3706598.3713923",
+  "title": "Investigating LLM-Driven Curiosity in Human-Robot Interaction",
+  "source": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
+  "oa": {
+   "url": "https://dl.acm.org/doi/pdf/10.1145/3706598.3713923",
+   "status": "GOLD",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0779": {
+  "doi": "10.55670/fpll.futech.5.2.19",
+  "title": "Emotionally intelligent social robot for dementia care: empathy-based conversational intervention model using multimodal sentiment analysis",
+  "source": "Future Technology",
+  "oa": {
+   "url": "https://doi.org/10.55670/fpll.futech.5.2.19",
+   "status": "GOLD",
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0790": {
+  "doi": "10.1080/01691864.2025.2490601",
+  "title": "IFDRDTS: intelligent food delivery robot and its digital twin system for dining assistance tasks",
+  "source": "Advanced Robotics",
+  "oa": {
+   "url": "",
+   "status": null,
+   "license": null
+  },
+  "arxiv": null
+ },
+ "R0817": {
+  "doi": "10.3389/frobt.2023.1271610",
+  "title": "Real-time emotion generation in human-robot dialogue using large language models",
+  "source": "Frontiers in Robotics and AI",
+  "oa": {
+   "url": "https://doi.org/10.3389/frobt.2023.1271610",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0842": {
+  "doi": "10.62527/joiv.9.6.4974",
+  "title": "Design of an AI-based Interactive Robot for Cognitive Rehabilitation Training",
+  "source": "JOIV : International Journal on Informatics Visualization",
+  "oa": {
+   "url": "https://doi.org/10.62527/joiv.9.6.4974",
+   "status": "GOLD",
+   "license": "CCBYSA"
+  },
+  "arxiv": null
+ },
+ "R0852": {
+  "doi": "10.3390/app152312759",
+  "title": "Design and Implementation of a Companion Robot with LLM-Based Hierarchical Emotion Motion Generation",
+  "source": "Applied Sciences",
+  "oa": {
+   "url": "https://doi.org/10.3390/app152312759",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ },
+ "R0862": {
+  "doi": "10.9781/ijimai.2023.07.008",
+  "title": "Using Large Language Models to Shape Social Robots' Speech",
+  "source": "Int. J. Interact. Multim. Artif. Intell.",
+  "oa": {
+   "url": "https://doi.org/10.9781/ijimai.2023.07.008",
+   "status": "GOLD",
+   "license": "CCBY"
+  },
+  "arxiv": null
+ }
+}

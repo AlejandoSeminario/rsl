@@ -1,53 +1,13 @@
 [
  {
-  "id": "R0070",
-  "apa": "Abbo, G. A., Janssens, R., Vreken, S. V. d., & Belpaeme, T. (2026). Expressive Furhat: Generating Real-Time Facial Expressions for Human-Robot Dialogue with LLMs. Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction. https://doi.org/10.1145/3776734.3794436",
-  "authors": "Giulio Antonio Abbo; R. Janssens; Seppe Van de Vreken; Tony Belpaeme",
-  "year": 2026,
-  "title": "Expressive Furhat: Generating Real-Time Facial Expressions for Human-Robot Dialogue with LLMs",
-  "source": "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
-  "doi": "10.1145/3776734.3794436",
-  "type": "Journal article"
- },
- {
   "id": "R0617",
-  "apa": "Abbo, G. A., Pinto-Bernal, M. J., Catrycke, M., & Belpaeme, T. (2025). Multi-party open-ended conversation with a social robot. Frontiers in Robotics and AI. https://doi.org/10.3389/frobt.2026.1766383",
+  "apa": "Abbo, G. A., Pinto-Bernal, M. J., Catrycke, M., & Belpaeme, T. (2026). Multi-party open-ended conversation with a social robot. Frontiers in Robotics and AI. https://doi.org/10.3389/frobt.2026.1766383",
   "authors": "Giulio Antonio Abbo; María J. Pinto-Bernal; Martijn Catrycke; Tony Belpaeme",
-  "year": 2025,
+  "year": 2026,
   "title": "Multi-party open-ended conversation with a social robot",
   "source": "Frontiers in Robotics and AI",
   "doi": "10.3389/frobt.2026.1766383",
   "type": "Journal article"
- },
- {
-  "id": "R0292",
-  "apa": "Ashok, A., Bruno, B., Helf, T., & Berns, K. (2025). “Thanks for the Practice!”: LLM-Powered Social Robot as Tandem Language Partner at University. 2025 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI). https://doi.org/10.1109/hri61500.2025.10973837",
-  "authors": "Ashita Ashok; Barbara Bruno; Tamara Helf; Karsten Berns",
-  "year": 2025,
-  "title": "“Thanks for the Practice!”: LLM-Powered Social Robot as Tandem Language Partner at University",
-  "source": "2025 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
-  "doi": "10.1109/hri61500.2025.10973837",
-  "type": "Journal article"
- },
- {
-  "id": "R0588",
-  "apa": "Banna, T. T., Rahman, S., & Tareq, M. (2025). Beyond Words: Integrating Personality Traits and Context-Driven Gestures in Human-Robot Interactions. Adaptive Agents and Multi-Agent Systems. https://doi.org/10.5555/3709347.3743537",
-  "authors": "Tahsin Tariq Banna; S. Rahman; Mohammad Tareq",
-  "year": 2025,
-  "title": "Beyond Words: Integrating Personality Traits and Context-Driven Gestures in Human-Robot Interactions",
-  "source": "Adaptive Agents and Multi-Agent Systems",
-  "doi": "10.5555/3709347.3743537",
-  "type": "Journal article"
- },
- {
-  "id": "R0488",
-  "apa": "Bezerra, M., Loureiro, M., Machado, F., Rocon, E., & Frizera, A. (2026). Multimodal Navigation Assistance for Older Adults: Combining Generative AI and Augmented Reality in a Robotic Walker. 2026 IEEE 5th International Conference on Intelligent Reality (ICIR). https://doi.org/10.1109/icir70631.2026.11628389",
-  "authors": "Marcio Bezerra; Matheus Loureiro; Fabiana Machado; E. Rocon; A. Frizera",
-  "year": 2026,
-  "title": "Multimodal Navigation Assistance for Older Adults: Combining Generative AI and Augmented Reality in a Robotic Walker",
-  "source": "2026 IEEE 5th International Conference on Intelligent Reality (ICIR)",
-  "doi": "10.1109/icir70631.2026.11628389",
-  "type": "Conference paper"
  },
  {
   "id": "R0623",
@@ -70,33 +30,13 @@
   "type": "Journal article"
  },
  {
-  "id": "R0072",
-  "apa": "Chen, A., & Bazzocchi, M. C. F. (2026). A Dash of Pepper, A Dose of Care: A Context-Aware, Emotionally Adaptive, Intelligent Social Robot for Long-Term Medication Adherence. 2026 11th IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics (BioRob). https://doi.org/10.1109/biorob66782.2026.11681492",
-  "authors": "Alena Chen; Michael C. F. Bazzocchi",
-  "year": 2026,
-  "title": "A Dash of Pepper, A Dose of Care: A Context-Aware, Emotionally Adaptive, Intelligent Social Robot for Long-Term Medication Adherence",
-  "source": "2026 11th IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics (BioRob)",
-  "doi": "10.1109/biorob66782.2026.11681492",
-  "type": "Conference paper"
- },
- {
-  "id": "R0473",
-  "apa": "Chen, Y., Qiu, C., Wang, N., Cao, J., & Xiong, Z. (2026). A Multimodal Emotional Interaction Framework Driven by Large Language Models. 2026 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM). https://doi.org/10.1109/aim65483.2026.11658264",
-  "authors": "Yuxuan Chen; Chen-Yi Qiu; Ning-Chuan Wang; Jin Cao; Zhen-Hua Xiong",
-  "year": 2026,
-  "title": "A Multimodal Emotional Interaction Framework Driven by Large Language Models",
-  "source": "2026 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)",
-  "doi": "10.1109/aim65483.2026.11658264",
-  "type": "Conference paper"
- },
- {
-  "id": "R0479",
-  "apa": "Chen, Y., Hu, M., Tian, L., Nichols, E., Gomez, R., & Li, G. (2025). Improving Social Robot's Emotional Intelligence with Physiological Feedback. 2025 IEEE International Conference on Robotics and Biomimetics (ROBIO). https://doi.org/10.1109/robio66223.2025.11377720",
-  "authors": "Yang Chen; Mingyang Hu; Liu Tian; Eric Nichols; Randy Gomez; Guang-Liang Li",
+  "id": "R0526",
+  "apa": "Fujii, A., Ishi, C., Sakai, K., Funayama, T., Iwai, R., Takahashi, Y., Kumada, T., & Minato, T. (2025). Evaluating human perceptions of android robot facial expressions based on variations in instruction styles. Frontiers in Robotics and AI. https://doi.org/10.3389/frobt.2025.1728647",
+  "authors": "Ayaka Fujii; C. Ishi; Kurima Sakai; Tomoyuki Funayama; Ritsuko Iwai; Yusuke Takahashi; Takatsune Kumada; Takashi Minato",
   "year": 2025,
-  "title": "Improving Social Robot's Emotional Intelligence with Physiological Feedback",
-  "source": "2025 IEEE International Conference on Robotics and Biomimetics (ROBIO)",
-  "doi": "10.1109/robio66223.2025.11377720",
+  "title": "Evaluating human perceptions of android robot facial expressions based on variations in instruction styles",
+  "source": "Frontiers in Robotics and AI",
+  "doi": "10.3389/frobt.2025.1728647",
   "type": "Journal article"
  },
  {
@@ -111,42 +51,12 @@
  },
  {
   "id": "R0477",
-  "apa": "Halima, S. B., Abdallah, F. B., & Haggège, J. (2026). Edge AI-Based Object Detection via Voice Recognition with an LLM-Based Emotional Assistant for Elderly Care Robots. International Journal of Information Technology and Computer Science. https://doi.org/10.5815/ijitcs.2026.04.04",
+  "apa": "Ben Halima, S., Ben Abdallah, F., & Haggège, J. (2026). Edge AI-Based Object Detection via Voice Recognition with an LLM-Based Emotional Assistant for Elderly Care Robots. International Journal of Information Technology and Computer Science. https://doi.org/10.5815/ijitcs.2026.04.04",
   "authors": "Sarra Ben Halima; Faten Ben Abdallah; Joseph Haggège",
   "year": 2026,
   "title": "Edge AI-Based Object Detection via Voice Recognition with an LLM-Based Emotional Assistant for Elderly Care Robots",
   "source": "International Journal of Information Technology and Computer Science",
   "doi": "10.5815/ijitcs.2026.04.04",
-  "type": "Journal article"
- },
- {
-  "id": "R0516",
-  "apa": "Hari, D., Skrbinjek, V., & Flogie, A. (2025). Enhancing Student Motivation and Engagement Through the Use of a Slovenian-Speaking Social Robot AlphaMini. Education Sciences. https://doi.org/10.3390/educsci15091222",
-  "authors": "Daniel Hari; Vesna Skrbinjek; Andrej Flogie",
-  "year": 2025,
-  "title": "Enhancing Student Motivation and Engagement Through the Use of a Slovenian-Speaking Social Robot AlphaMini",
-  "source": "Education Sciences",
-  "doi": "10.3390/educsci15091222",
-  "type": "Journal article"
- },
- {
-  "id": "R0697",
-  "apa": "Hielscher, T., Scaparro, F., & Arras, K. O. (2026). Context-Aware Generation and Modulation of Expressive Motion Behavior using Multimodal Foundation Models. Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction. https://doi.org/10.1145/3757279.3785635",
-  "authors": "Till Hielscher; F. Scaparro; Kai O. Arras",
-  "year": 2026,
-  "title": "Context-Aware Generation and Modulation of Expressive Motion Behavior using Multimodal Foundation Models",
-  "source": "Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
-  "doi": "10.1145/3757279.3785635",
-  "type": "Journal article"
- },
- {
-  "id": "R0423",
-  "apa": "Hundt, A., Azeem, R., Mansouri, M., & Brandão, M. (2024). LLM-Driven Robots Risk Enacting Discrimination, Violence, and Unlawful Actions. International Journal of Social Robotics. https://doi.org/10.1007/s12369-025-01301-x",
-  "authors": "Andrew Hundt; Rumaisa Azeem; M. Mansouri; Martim Brandão",
-  "year": 2024,
-  "title": "LLM-Driven Robots Risk Enacting Discrimination, Violence, and Unlawful Actions",
-  "source": "International Journal of Social Robotics",
-  "doi": "10.1007/s12369-025-01301-x",
   "type": "Journal article"
  },
  {
@@ -180,36 +90,6 @@
   "type": "Journal article"
  },
  {
-  "id": "R0779",
-  "apa": "Lei, Z., Yin, Y., & Chen, Y. (2026). Emotionally intelligent social robot for dementia care: empathy-based conversational intervention model using multimodal sentiment analysis. Future Technology. https://doi.org/10.55670/fpll.futech.5.2.19",
-  "authors": "Zhen Lei; Yiqiao Yin; Yingsheng Chen",
-  "year": 2026,
-  "title": "Emotionally intelligent social robot for dementia care: empathy-based conversational intervention model using multimodal sentiment analysis",
-  "source": "Future Technology",
-  "doi": "10.55670/fpll.futech.5.2.19",
-  "type": "Journal article"
- },
- {
-  "id": "R0754",
-  "apa": "Leusmann, J., Belardinelli, A., Haliburton, L., Hasler, S., Schmidt, A., Mayer, S., Gienger, M., & Wang, C. (2025). Investigating LLM-Driven Curiosity in Human-Robot Interaction. Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems. https://doi.org/10.1145/3706598.3713923",
-  "authors": "Jan Leusmann; A. Belardinelli; L. Haliburton; Stephan Hasler; Albrecht Schmidt; Sven Mayer; Michael Gienger; Chao Wang",
-  "year": 2025,
-  "title": "Investigating LLM-Driven Curiosity in Human-Robot Interaction",
-  "source": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
-  "doi": "10.1145/3706598.3713923",
-  "type": "Journal article"
- },
- {
-  "id": "R0286",
-  "apa": "Li, J., Schijve, F., Hu, J., & Barakova, E. (2026). Facilitating Co-regulation: An LLM-Powered Multimodal Social Robot for Parent-Child Dyads. Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction. https://doi.org/10.1145/3776734.3794485",
-  "authors": "Jing Li; Felix Schijve; Jun Hu; E. Barakova",
-  "year": 2026,
-  "title": "Facilitating Co-regulation: An LLM-Powered Multimodal Social Robot for Parent-Child Dyads",
-  "source": "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
-  "doi": "10.1145/3776734.3794485",
-  "type": "Journal article"
- },
- {
   "id": "R0538",
   "apa": "Liao, P., Su, Y., Qian, X., Chang, Y., Lee, Y., & Fu, L. (2026). Multimodal Depression Detection Through Conversational Interactions with an Emotion-Aware Social Robot: Pilot Study. JMIR Formative Research. https://doi.org/10.2196/84110",
   "authors": "Pu-Yu Liao; Yu Su; Xiaobei Qian; Yu-Ling Chang; Yun-Hsiang Lee; Li-Chen Fu",
@@ -217,16 +97,6 @@
   "title": "Multimodal Depression Detection Through Conversational Interactions with an Emotion-Aware Social Robot: Pilot Study",
   "source": "JMIR Formative Research",
   "doi": "10.2196/84110",
-  "type": "Journal article"
- },
- {
-  "id": "R0852",
-  "apa": "Lim, Y., Cho, J., Lee, D., Choi, D., & Lee, D. (2025). Design and Implementation of a Companion Robot with LLM-Based Hierarchical Emotion Motion Generation. Applied Sciences. https://doi.org/10.3390/app152312759",
-  "authors": "Yoongu Lim; Jaeuk Cho; Duk-Yeon Lee; D. Choi; Dong-Wook Lee",
-  "year": 2025,
-  "title": "Design and Implementation of a Companion Robot with LLM-Based Hierarchical Emotion Motion Generation",
-  "source": "Applied Sciences",
-  "doi": "10.3390/app152312759",
   "type": "Journal article"
  },
  {
@@ -240,26 +110,6 @@
   "type": "Conference paper"
  },
  {
-  "id": "R0460",
-  "apa": "Liu, X., Lv, Q., Li, J., Song, S., & Cangelosi, A. (2025). Multimodal Emotion Fusion Mechanism and Empathetic Responses in Companion Robots. IEEE Transactions on Cognitive and Developmental Systems. https://doi.org/10.1109/tcds.2024.3442203",
-  "authors": "Xiaofeng Liu; Qincheng Lv; Jie Li; Si-Yang Song; Angelo Cangelosi",
-  "year": 2025,
-  "title": "Multimodal Emotion Fusion Mechanism and Empathetic Responses in Companion Robots",
-  "source": "IEEE Transactions on Cognitive and Developmental Systems",
-  "doi": "10.1109/tcds.2024.3442203",
-  "type": "Journal article"
- },
- {
-  "id": "R0333",
-  "apa": "Lyu, S., Wang, F., Lin, W., Guo, G., & Navarro-Alarcón, D. (2026). Enhancing End-user Engagement in Human–Robot Interaction by Performing LLM-driven Expressive Behaviors. ACM Transactions on Human-Robot Interaction. https://doi.org/10.1145/3813107",
-  "authors": "Shipeng Lyu; Fang-Yuan Wang; Weiwei Lin; Guodong Guo; D. Navarro-Alarcón",
-  "year": 2026,
-  "title": "Enhancing End-user Engagement in Human–Robot Interaction by Performing LLM-driven Expressive Behaviors",
-  "source": "ACM Transactions on Human-Robot Interaction",
-  "doi": "10.1145/3813107",
-  "type": "Journal article"
- },
- {
   "id": "R0817",
   "apa": "Mishra, C., Verdonschot, R. G., Hagoort, P., & Skantze, G. (2023). Real-time emotion generation in human-robot dialogue using large language models. Frontiers in Robotics and AI. https://doi.org/10.3389/frobt.2023.1271610",
   "authors": "Chinmaya Mishra; Rinus G. Verdonschot; P. Hagoort; G. Skantze",
@@ -267,16 +117,6 @@
   "title": "Real-time emotion generation in human-robot dialogue using large language models",
   "source": "Frontiers in Robotics and AI",
   "doi": "10.3389/frobt.2023.1271610",
-  "type": "Journal article"
- },
- {
-  "id": "R0264",
-  "apa": "Nakagawa, S., & Nihei, M. (2025). Bridging Divides through Empathetic Robot Dialogue in Remote Interpersonal Conflict. 2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN). https://doi.org/10.1109/ro-man63969.2025.11217560",
-  "authors": "Satoshi Nakagawa; Misato Nihei",
-  "year": 2025,
-  "title": "Bridging Divides through Empathetic Robot Dialogue in Remote Interpersonal Conflict",
-  "source": "2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
-  "doi": "10.1109/ro-man63969.2025.11217560",
   "type": "Journal article"
  },
  {
@@ -300,43 +140,13 @@
   "type": "Journal article"
  },
  {
-  "id": "R0212",
-  "apa": "Pinto-Bernal, M. J., Biondina, M., & Belpaeme, T. (2025). Designing Social Robots with LLMs for Engaging Human Interaction. Applied Sciences. https://doi.org/10.3390/app15116377",
-  "authors": "María J. Pinto-Bernal; M. Biondina; Tony Belpaeme",
+  "id": "R0356",
+  "apa": "Rahimi, H., Bahaj, A., Abrini, M., Khoramshahi, M., Ghogho, M., & Chetouani, M. (2025). USER-VLM 360: Personalized Vision Language Models with User-aware Tuning for Social Human-Robot Interactions. Proceedings of the 27th International Conference on Multimodal Interaction. https://doi.org/10.1145/3716553.3750767",
+  "authors": "Hamed Rahimi; A.B. Bahaj; Mouad Abrini; Mahdi Khoramshahi; Mounir Ghogho; Mohamed Chetouani",
   "year": 2025,
-  "title": "Designing Social Robots with LLMs for Engaging Human Interaction",
-  "source": "Applied Sciences",
-  "doi": "10.3390/app15116377",
-  "type": "Journal article"
- },
- {
-  "id": "R0400",
-  "apa": "Pozzi, L., Nasato, M., Toscani, N., Braghin, F., & Gandolla, M. (2026). Personalization and Generative Dialogue in Social Robotics for Eldercare: A User Study. Applied Sciences. https://doi.org/10.3390/app16073369",
-  "authors": "Luca Pozzi; Marco Nasato; N. Toscani; F. Braghin; M. Gandolla",
-  "year": 2026,
-  "title": "Personalization and Generative Dialogue in Social Robotics for Eldercare: A User Study",
-  "source": "Applied Sciences",
-  "doi": "10.3390/app16073369",
-  "type": "Journal article"
- },
- {
-  "id": "R0615",
-  "apa": "Ranasinghe, C., Munasinghe, V., Vikasitha, S., Abeywickrama, C., Silva, B., & Jayasekara, P. (2025). Enhancing Receptionist Roles with AI: A Standalone Edge Device based Humanoid Robot Receptionist. 2025 10th International Conference on Control and Robotics Engineering (ICCRE). https://doi.org/10.1109/iccre65455.2025.11093535",
-  "authors": "Chathushka Ranasinghe; Vidura Munasinghe; Sasinindu Vikasitha; Chamod Abeywickrama; Bhanuka Silva; P. Jayasekara",
-  "year": 2025,
-  "title": "Enhancing Receptionist Roles with AI: A Standalone Edge Device based Humanoid Robot Receptionist",
-  "source": "2025 10th International Conference on Control and Robotics Engineering (ICCRE)",
-  "doi": "10.1109/iccre65455.2025.11093535",
-  "type": "Conference paper"
- },
- {
-  "id": "R0431",
-  "apa": "Ren, Q., & Belpaeme, T. (2025). Touched by ChatGPT: Using an LLM to Drive Affective Tactile Interaction. 2025 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI). https://doi.org/10.1109/hri61500.2025.10973852",
-  "authors": "Q. Ren; Tony Belpaeme",
-  "year": 2025,
-  "title": "Touched by ChatGPT: Using an LLM to Drive Affective Tactile Interaction",
-  "source": "2025 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
-  "doi": "10.1109/hri61500.2025.10973852",
+  "title": "USER-VLM 360: Personalized Vision Language Models with User-aware Tuning for Social Human-Robot Interactions",
+  "source": "Proceedings of the 27th International Conference on Multimodal Interaction",
+  "doi": "10.1145/3716553.3750767",
   "type": "Journal article"
  },
  {
@@ -350,16 +160,6 @@
   "type": "Journal article"
  },
  {
-  "id": "R0862",
-  "apa": "Sevilla-Salcedo, J., Fernández-Rodicio, E., Martín-Galván, L., González, Á. C., Castillo, J., & Salichs, M. (2023). Using Large Language Models to Shape Social Robots' Speech. Int. J. Interact. Multim. Artif. Intell.. https://doi.org/10.9781/ijimai.2023.07.008",
-  "authors": "Javier Sevilla-Salcedo; Enrique Fernández-Rodicio; Laura Martín-Galván; Álvaro Castro González; J. Castillo; M. Salichs",
-  "year": 2023,
-  "title": "Using Large Language Models to Shape Social Robots' Speech",
-  "source": "Int. J. Interact. Multim. Artif. Intell.",
-  "doi": "10.9781/ijimai.2023.07.008",
-  "type": "Journal article"
- },
- {
   "id": "R0051",
   "apa": "Skantze, G., & Irfan, B. (2025). Applying General Turn-Taking Models to Conversational Human-Robot Interaction. 2025 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI). https://doi.org/10.1109/hri61500.2025.10973958",
   "authors": "Gabriel Skantze; Bahar Irfan",
@@ -370,56 +170,6 @@
   "type": "Journal article"
  },
  {
-  "id": "R0528",
-  "apa": "Souza, V. (2026). Integration of Local Generative Language Models in Humanoid Robots: An Approach with the NAO Robot and DeepSeek-LLM. 2026 Brazilian Conference on Robotics (CROS). https://doi.org/10.1109/cros69211.2026.11565712",
-  "authors": "V. Souza",
-  "year": 2026,
-  "title": "Integration of Local Generative Language Models in Humanoid Robots: An Approach with the NAO Robot and DeepSeek-LLM",
-  "source": "2026 Brazilian Conference on Robotics (CROS)",
-  "doi": "10.1109/cros69211.2026.11565712",
-  "type": "Conference paper"
- },
- {
-  "id": "R0575",
-  "apa": "Steinhaeusser, S. C., Zehe, A., Maier, S., Hotho, A., & Lugrin, B. (2026). Development of the Fully Automatic Robotic Storyteller—Comparing Manual, Semi-Automatic, and LLM-Based Emotional Story Annotation for Multimodal Robotic Storytelling. IEEE Transactions on Affective Computing. https://doi.org/10.1109/taffc.2026.3691816",
-  "authors": "Sophia C. Steinhaeusser; Albin Zehe; Sophia Maier; Andreas Hotho; B. Lugrin",
-  "year": 2026,
-  "title": "Development of the Fully Automatic Robotic Storyteller—Comparing Manual, Semi-Automatic, and LLM-Based Emotional Story Annotation for Multimodal Robotic Storytelling",
-  "source": "IEEE Transactions on Affective Computing",
-  "doi": "10.1109/taffc.2026.3691816",
-  "type": "Journal article"
- },
- {
-  "id": "R0226",
-  "apa": "Syjan, S., Jaradath, H. T., & Shetty, V. C. (2026). AI-Driven Humanoid Animatronic Face for Real-Time Multimodal Human-Robot Interaction. 2026 IEEE International Conference on Emerging Synergy Science and Technology (ICESST). https://doi.org/10.1109/icesst69086.2026.11582887",
-  "authors": "Stalin Syjan; Hanadi Thaisir Jaradath; Vishwas C. Shetty",
-  "year": 2026,
-  "title": "AI-Driven Humanoid Animatronic Face for Real-Time Multimodal Human-Robot Interaction",
-  "source": "2026 IEEE International Conference on Emerging Synergy Science and Technology (ICESST)",
-  "doi": "10.1109/icesst69086.2026.11582887",
-  "type": "Conference paper"
- },
- {
-  "id": "R0688",
-  "apa": "Tan, R., Lou, S., Yu, L., Tian, X., & Lv, C. (2026). DR-TSLM: Deictic Reference Resolution via Temporal-Spatial Large Language Model for Human-Robot Interaction. 2026 IEEE International Conference on Cybernetics and Intelligent Systems (CIS) and IEEE International Conference on Robotics, Automation and Mechatronics (RAM). https://doi.org/10.1109/cis-ram71614.2026.11668533",
-  "authors": "Run-Jia Tan; Shanhe Lou; Lan Yu; Xue-Song Tian; Chen Lv",
-  "year": 2026,
-  "title": "DR-TSLM: Deictic Reference Resolution via Temporal-Spatial Large Language Model for Human-Robot Interaction",
-  "source": "2026 IEEE International Conference on Cybernetics and Intelligent Systems (CIS) and IEEE International Conference on Robotics, Automation and Mechatronics (RAM)",
-  "doi": "10.1109/cis-ram71614.2026.11668533",
-  "type": "Conference paper"
- },
- {
-  "id": "R0591",
-  "apa": "Thabet, M. M., Gad, E., Abdelmonem, H. K., & Ibrahim, R. M. (2025). A Unified Framework Low Cost AI-Powered Humanoid Head for Expressive Multimodal Human-Robot Interaction. 2025 International Conference on Future Telecommunications and Artificial Intelligence (IC-FTAI). https://doi.org/10.1109/ic-ftai67960.2025.11384544",
-  "authors": "Michael M. Thabet; E. Gad; Hagar K. Abdelmonem; R. M. Ibrahim",
-  "year": 2025,
-  "title": "A Unified Framework Low Cost AI-Powered Humanoid Head for Expressive Multimodal Human-Robot Interaction",
-  "source": "2025 International Conference on Future Telecommunications and Artificial Intelligence (IC-FTAI)",
-  "doi": "10.1109/ic-ftai67960.2025.11384544",
-  "type": "Conference paper"
- },
- {
   "id": "R0201",
   "apa": "Viet, T. T., Canh, T., Gia, H. U., Van, P. D., Duc, S. T., Do, N. M., & HoangVan, X. (2025). Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction. 2025 RIVF International Conference on Computing and Communication Technologies (RIVF). https://doi.org/10.1109/rivf68649.2025.11364526",
   "authors": "Thang Tran Viet; T. Canh; Huy Uong Gia; Phuc Dinh Van; Son Tran Duc; Ngoc Minh Do; Xiem HoangVan",
@@ -427,6 +177,16 @@
   "title": "Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction",
   "source": "2025 RIVF International Conference on Computing and Communication Technologies (RIVF)",
   "doi": "10.1109/rivf68649.2025.11364526",
+  "type": "Journal article"
+ },
+ {
+  "id": "R0216",
+  "apa": "Walker, N., Ultes, S., & Lison, P. (2025). Graph-to-Text Approach to Knowledge-Grounded Response Generation in Human-Robot Interaction. Dialogue Discourse. https://doi.org/10.5210/dad.2025.304",
+  "authors": "N. Walker; Stefan Ultes; Pierre Lison",
+  "year": 2025,
+  "title": "Graph-to-Text Approach to Knowledge-Grounded Response Generation in Human-Robot Interaction",
+  "source": "Dialogue Discourse",
+  "doi": "10.5210/dad.2025.304",
   "type": "Journal article"
  },
  {
@@ -440,6 +200,16 @@
   "type": "Journal article"
  },
  {
+  "id": "R0699",
+  "apa": "Wang, J., Wang, C., Zarrin, R. S., & Erickson, Z. (2026). Bidirectional Human-Robot Communication for Physical Human-Robot Interaction. Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction. https://doi.org/10.1145/3757279.3785634",
+  "authors": "Junxiang Wang; Cindy Wang; Rana Soltani Zarrin; Zackory Erickson",
+  "year": 2026,
+  "title": "Bidirectional Human-Robot Communication for Physical Human-Robot Interaction",
+  "source": "Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+  "doi": "10.1145/3757279.3785634",
+  "type": "Journal article"
+ },
+ {
   "id": "R0293",
   "apa": "Yang, Y., Yap, P. S., Wijeakumar, S., Magassouba, A., & Deshpande, N. (2026). A Multimodal Adaptive Framework for Social Interaction with the MiRo-E Robot. Sensors (Basel, Switzerland). https://doi.org/10.3390/s26041209",
   "authors": "Yu-Feng Yang; Pei Shan Yap; Sobanawartiny Wijeakumar; Aly Magassouba; N. Deshpande",
@@ -447,16 +217,6 @@
   "title": "A Multimodal Adaptive Framework for Social Interaction with the MiRo-E Robot",
   "source": "Sensors (Basel, Switzerland)",
   "doi": "10.3390/s26041209",
-  "type": "Journal article"
- },
- {
-  "id": "R0405",
-  "apa": "Zhong, V. J., Studerus, E., & Vonschallen, S. (2025). Integrating LLM into a Socially Assistive Robot for Social Dialogue: An Exploratory Study in a Nursing Home*. 2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN). https://doi.org/10.1109/ro-man63969.2025.11217629",
-  "authors": "Vivienne Jia Zhong; Erich Studerus; Stephan Vonschallen",
-  "year": 2025,
-  "title": "Integrating LLM into a Socially Assistive Robot for Social Dialogue: An Exploratory Study in a Nursing Home*",
-  "source": "2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
-  "doi": "10.1109/ro-man63969.2025.11217629",
   "type": "Journal article"
  }
 ]
